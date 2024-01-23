@@ -115,6 +115,11 @@ for (let i = 0; i < rows; i++) {
                     }
                     header.textContent = result
                 }
+
+                else {
+                    header.textContent = 'Error: Invalid expression!'
+
+                }
             }
 
             else if (text == 'SPACE') {
